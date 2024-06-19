@@ -1,0 +1,55 @@
+.contact {
+    margin-top: 120px;
+
+    &__left {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        align-items: center;
+
+    }
+
+    &__card img {
+        width: 20px;
+        height: 28px;
+    }
+
+    &__main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 60px;
+    }
+
+    &__card {
+        display: flex;
+        gap: 30px;
+
+    }
+
+    &__card-title {
+        margin-bottom: 5px;
+    }
+
+    &__right {
+        background-color: #F9F9FB;
+        padding: 45px;
+        padding-bottom: 0px;
+      
+
+
+    }
+
+    &__box {
+        display: flex;
+        gap: 50px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #00000070;
+        margin-bottom: 20px;
+
+
+    }
+
+}

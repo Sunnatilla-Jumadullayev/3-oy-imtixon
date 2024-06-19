@@ -1,0 +1,29 @@
+.client {
+    margin-top: 60px;
+
+    &__boxes {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        row-gap: 60px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__box {
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        border-radius: 24px;
+
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,28 @@
+.footer {
+    background-color: #0B7572;
+    padding: 60px 85px;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-self: normal;
+    justify-content: space-between;
+    
+    &__img{
+        width: 176px;
+        height: 90px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        font-size: 15px;
+    }
+
+    &__card p {
+        color: #fff;
+    }
+}

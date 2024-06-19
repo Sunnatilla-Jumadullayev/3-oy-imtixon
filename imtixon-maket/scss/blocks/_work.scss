@@ -1,0 +1,54 @@
+.work {
+    margin-top: 100px;
+
+    &__title {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    &__text {
+        max-width: 550px;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    &__boxes {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 25px;
+        margin-bottom: 30px;
+
+    }
+
+    &__box {
+        max-width: 393px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        border-radius: 20px;
+
+    }
+
+    &__main {
+        padding: 25px;
+    }
+
+    &__box-text {
+        margin: 20px 0px;
+    }
+
+    &__box-prise {
+        display: inline-block;
+        border-bottom: 4px solid #FFCE50;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .work {
+
+        &__boxes {
+            flex-wrap: wrap;
+        }
+    }
+}

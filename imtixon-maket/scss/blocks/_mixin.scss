@@ -1,0 +1,6 @@
+@mixin title($fsz,$lnheigt,$color){
+    font-size: $fsz;
+    line-height: $lnheigt;
+    color: $color;
+
+}
